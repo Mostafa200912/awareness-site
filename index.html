@@ -1,0 +1,109 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <title>منصة التوعية المجتمعية</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      direction: rtl;
+      background: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background: #4A90E2;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      background: white;
+      margin: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    section img {
+      width: 100%;
+      max-width: 600px;
+      border-radius: 10px;
+      margin-top: 15px;
+    }
+    footer {
+      background: #357ABD;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+    h2 {
+      color: #4A90E2;
+    }
+    button {
+      background-color: #4A90E2;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      margin-top: 15px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #357ABD;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>منصة التوعية المجتمعية</h1>
+  <nav>
+    <a href="#parents">للآباء</a>
+    <a href="#mothers">للأمهات</a>
+    <a href="#youth">للشباب</a>
+  </nav>
+</header>
+
+<section id="home">
+  <h2>منصة الوعي الأسري</h2>
+  <p>نحن نسعى إلى بناء مجتمع أكثر وعيًا وصحة من خلال توجيه الآباء، دعم الأمهات، وتمكين الشباب من تحقيق إمكاناتهم الكاملة. نؤمن أن التوعية هي أساس التغيير، ولهذا نوفر لكم محتوى شامل ومفيد.</p>
+  <button onclick="document.getElementById('parents').scrollIntoView({behavior:'smooth'})">ابدأ التصفح</button>
+</section>
+
+<section id="parents">
+  <h2>للآباء: كن القائد الإيجابي</h2>
+  <p>نوفر لك نصائح عملية لفهم الأطفال والتعامل مع التحديات اليومية مثل العناد وقلة التركيز، وتعزيز الثقة بالنفس.</p>
+  <img src="https://cdn.pixabay.com/photo/2017/01/07/20/15/family-1966206_960_720.jpg" alt="نصائح للآباء">
+  <button onclick="window.location.href='nasaeh-parents.html'">معرفة المزيد</button>
+</section>
+
+<section id="mothers">
+  <h2>للأمهات: سر النجاح الأسري</h2>
+  <p>نقدم إرشادات حول التغذية السليمة، التوازن بين العمل والأسرة، والاهتمام بالصحة النفسية للأم.</p>
+  <img src="https://cdn.pixabay.com/photo/2016/06/24/10/47/mother-1478010_960_720.jpg" alt="نصائح للأمهات">
+  <button onclick="window.location.href='nasaeh-mothers.html'">معرفة المزيد</button>
+</section>
+
+<section id="youth">
+  <h2>للشباب: اصنع مستقبلك</h2>
+  <p>نساعدك على تنمية مهارات التفكير، ريادة الأعمال، استخدام التكنولوجيا بشكل إيجابي، وتجنب السلوكيات الضارة.</p>
+  <img src="https://cdn.pixabay.com/photo/2015/07/02/10/28/people-828611_960_720.jpg" alt="نصائح للشباب">
+  <button onclick="window.location.href='nasaeh-youth.html'">معرفة المزيد</button>
+</section>
+
+<footer>
+  <p>© 2025 منصة التوعية - جميع الحقوق محفوظة</p>
+</footer>
+
+</body>
+</html>
